@@ -10,7 +10,6 @@
     "json": "./export_json.sh",
     "format": "node lib/build.js",
     "build": "npm run csv && npm run json && npm run format",
-    "precommit": "npm test"
   },
   "repository": {
     "type": "git",
